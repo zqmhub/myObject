@@ -1,0 +1,270 @@
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title> 入驻申请表</title>
+  <meta name="format-detection" content="telephone=no, address=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="keywords" content="5wan,wuwan，吾玩，吾玩众创，众创空间">
+  <meta name="description" content="wuwan，吾玩，吾玩众创，众创空间">
+  <link rel="shortcut icon" href="http://192.168.1.102/pros/attachment/images/global/wechat.jpg">
+  <script src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+  <script type="text/javascript" src="http://192.168.1.102/pros/app/resource/js/app/util.js"></script>
+  <script src="http://192.168.1.102/pros/app/resource/js/require.js"></script>
+  <script type="text/javascript" src="http://192.168.1.102/pros/app/resource/js/lib/jquery-1.11.1.min.js?v=20160906"></script>
+  <script type="text/javascript" src="http://192.168.1.102/pros/app/resource/js/lib/mui.min.js?v=20160906"></script>
+  <script type="text/javascript" src="http://192.168.1.102/pros/app/resource/js/app/common.js?v=20160906"></script>
+  <link href="http://192.168.1.102/pros/app/resource/css/bootstrap.min.css?v=20160906" rel="stylesheet">
+  <!-- <link href="http://192.168.1.102/pros/app/resource/css/common.min.css?v=20160906" rel="stylesheet"> -->
+  <script type="text/javascript">
+          if(navigator.appName == 'Microsoft Internet Explorer'){
+            if(navigator.userAgent.indexOf("MSIE 5.0")>0 || navigator.userAgent.indexOf("MSIE 6.0")>0 || navigator.userAgent.indexOf("MSIE 7.0")>0) {
+              alert('您使用的 IE 浏览器版本过低, 推荐使用 Chrome 浏览器或 IE8 及以上版本浏览器.');
+            }
+          }
+          window.sysinfo = {
+            'uniacid': '1',   'acid': '1',        'siteroot': 'http://192.168.1.102/pros/',
+            'siteurl': 'http://192.168.1.102/pros/app/index.php?i=1&c=entry&do=enterApplication&m=model_test',
+            'attachurl': 'http://192.168.1.102/pros/attachment/',
+            'attachurl_local': 'http://192.168.1.102/pros/attachment/',
+            'attachurl_remote': '',
+            'MODULE_URL': 'http://192.168.1.102/pros/addons/model_test/',   'cookie' : {'pre': 'd3eb_'}
+          };
+          // jssdk config 对象
+          jssdkconfig = null || {};
+          // 是否启用调试
+          jssdkconfig.debug = false;
+          jssdkconfig.jsApiList = [
+            'checkJsApi',
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage',
+            'onMenuShareQQ',
+            'onMenuShareWeibo',
+            'hideMenuItems',
+            'showMenuItems',
+            'hideAllNonBaseMenuItem',
+            'showAllNonBaseMenuItem',
+            'translateVoice',
+            'startRecord',
+            'stopRecord',
+            'onRecordEnd',
+            'playVoice',
+            'pauseVoice',
+            'stopVoice',
+            'uploadVoice',
+            'downloadVoice',
+            'chooseImage',
+            'previewImage',
+            'uploadImage',
+            'downloadImage',
+            'getNetworkType',
+            'openLocation',
+            'getLocation',
+            'hideOptionMenu',
+            'showOptionMenu',
+            'closeWindow',
+            'scanQRCode',
+            'chooseWXPay',
+            'openProductSpecificView',
+            'addCard',
+            'chooseCard',
+            'openCard',
+            'openAddress'
+          ];
+    </script>
+  
+
+  <script type="text/javascript" src="{$_W['siteroot']}app/resource/js/app/common.js"></script>
+  <link rel="stylesheet" href="{MODULE_URL}static/css/enter.css">
+</head>
+<body style="padding-bottom: 20px;">
+  
+<div class="container container-fill">
+
+<div class="panel panel-default user_introduce">
+    <div style="text-align: center;" class="panel-heading">吾玩众创入驻申请表</div>
+  <div class="panel-body">
+    <form role="form" action="" method="POST">
+        <div class="form-group">
+          <label for="exampleInputEmail1">负责人</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="请输入负责人姓名">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">联系方式</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="请输入联系方式">
+        </div>
+         <div class="form-group">
+          <label for="exampleInputPassword1">常用邮箱</label>
+          <input type="email" class="form-control" id="exampleInputPassword1" placeholder="请输入常用邮箱">
+        </div>
+       
+        <div class="form-group">
+          <label for="exampleInputPassword1">负责人简介</label>
+          <textarea rows="4" type="text" class="form-control" id="exampleInputPassword1" placeholder="请输入负责人简介"></textarea> 
+    
+  </div>
+  </form>
+  </div>
+    </div>
+    
+
+<button style="width: 100%" type="button" class="btn btn-default next_btn">下一步</button>
+  <!-- 点击下一步 显示内容 -->
+  
+  <div class="panel panel-default next_content object_introduce" style="display: none;">
+  <div style="text-align: center;" class="panel-heading">
+
+   <span class="prev_back" style="">返回</span>
+   吾玩众创入驻申请表
+   <span class="show_price glyphicon glyphicon-question-sign" style=""  ></span>
+  </div>
+
+  <div class="panel-body">
+    <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">项目名称</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="项目名称">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">公司名称</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="公司名称（未注册请填写‘暂无'）">
+  </div>
+   <div class="form-group">
+    <label for="exampleInputPassword1">团队人数</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="团队人数">
+  </div>
+ 
+  <div class="form-group">
+    <label for="exampleInputPassword1">项目简介</label>
+    <textarea rows="4" type="text" class="form-control" id="exampleInputPassword1" placeholder="项目简介"></textarea> 
+  </div>
+  <hr style="margin:10px 0;">
+<div style="text-align: center;height: 40px;width: 100%;font-size: 20px;line-height: 30px;">您希望获得的创业服务</div>
+<div class="table-responsive  hope_server">
+<table class="table table-bordered " style="text-align: center;">
+
+<tbody>
+<tr>
+    <td>公司注册</td>
+    <td>财务外包</td>
+</tr>
+<tr>
+    <td>法务咨询</td>
+    <td>资金申报</td>
+</tr>
+<tr>
+    <td>导师辅导</td>
+    <td>投融资对接</td>
+</tr>
+<tr>
+    <td>管理培训</td>
+    <td class="other_serve">其他服务</td>
+</tr>
+</tbody>
+
+</table>
+
+
+</div>
+
+  <input style="width: 100%" type="button" class="btn btn-default submit_btn" value="提交">
+
+</form>
+
+  </div>
+</div>
+
+
+
+<div class="mask_wrap" style="display: none;">
+    <div class="mask_content">
+    <span class="glyphicon glyphicon-remove close_btn"></span>
+      <div style="text-align: center;height: 40px;width: 100%;font-size: 20px;line-height: 30px;">收费标准</div>
+<div class="table-responsive  ">
+  <table class="table table-bordered " style="text-align: center;">
+  <thead>
+    <tr>
+      <td>服务空间</td>
+      <td>价格（元/月）</td>
+    </tr>
+  </thead>
+    <tbody>
+      <tr>
+          <td>开放工位</td>
+          <td>600元/人</td>
+      </tr>
+      <tr>
+          <td>针房</td>
+          <td>3000元/间</td>
+      </tr>
+      <tr>
+          <td>线铺</td>
+          <td>5000元/间</td>
+      </tr>
+      <tr>
+          <td>布坊</td>
+          <td>7000元/间</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+  $(function(){
+    //点击下一步，交互效果
+    $('.next_btn').on('click',function(){
+    $('.user_introduce').slideUp();
+    setTimeout(function(){
+      $('.object_introduce').slideDown();
+    },400)
+              
+        $(this).hide()
+
+    });
+
+    //选择服务
+ 
+    $('.hope_server td').on('click',function(){
+      
+        $(this).toggleClass('actived')
+
+    })
+
+//遮罩层
+
+//打开价格表
+$('.show_price').on('click',function(){
+    $('.mask_wrap').show();
+})
+//防止冒泡
+$('.mask_content').on('click',function(ev){
+  ev.stopPropagation();
+})
+//点空白处关闭价格表
+$('.mask_wrap').on('click',function(){
+  $(this).hide();
+})
+//关闭价格表
+$('.close_btn').on('click',function(){
+  $('.mask_wrap').hide();
+})
+//返回
+$('.prev_back').on('click',function(){
+  $('.object_introduce').slideUp();
+  setTimeout(function(){
+    $('.user_introduce').slideDown();
+    $('.next_btn').show();
+  },400)
+    
+})
+
+$('.submit_btn').on('click',function(){
+    alert('你点了提交按钮')
+})
+  })
+</script>
+{template 'common/footer'}

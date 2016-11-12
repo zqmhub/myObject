@@ -1,0 +1,20 @@
+
+.visit_wrap .visit_header{
+	background: #f1c50b;
+}
+.view_detail{
+	color: #2591FB;
+	cursor: pointer;
+}
+.view_detail:hover{
+	background-color: #f1c50b;
+	color: #fff;
+}
+
+.accept_active{
+	color: #00CC00;
+}
+
+.refuse_active{
+	color: #FF1301;
+}
